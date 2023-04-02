@@ -1,0 +1,163 @@
+@media screen and (max-width: 1310px) {
+  .products_wrapper_item{
+    flex-direction: column;
+  }
+  .products_wrapper{
+    .line{
+      margin: 30px 0px 30px 0px;
+      width: 100%;
+      border-bottom: 1px solid gray;
+    }
+    .item_image{
+      margin-top: 0;
+    }
+  }
+}
+@media screen and (max-width: 1146px) {
+  .img_text_about_us{
+    justify-content: center;
+  }
+  .questions_item{
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .text_glav_advantages {
+  margin-left: 0;
+  }
+  .contact_item {
+    justify-content: center;
+  }
+  .wrapper_footer{
+    height: 352px;
+  }
+  .logo_footer{
+    margin-right: 0;
+  }
+  .geo_footer{
+    margin: 15px 0;
+    img{
+      top: 0;
+    }
+  }
+  .tel_footer{
+    margin: 0;
+    margin-right: 0;
+  }
+  .footer_item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .privacy_footer{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header{
+    .nav{
+      display: none;
+    }
+  }
+  .products_wrapper_item{
+    justify-content: center !important;
+  }
+  .products_wrapper_item{
+    .image_products{
+      grid-template-columns: repeat(2,200px);
+      grid-template-rows: repeat(3,200px);
+    }
+  }
+  .text_glav_wood{
+    margin-left: 0;
+  }
+  .our_work_wrapper {
+    h3{
+      margin-left: 0;
+    }
+  }
+    .item_wrapper{
+    margin-bottom: 20px;
+    h5{
+      margin-bottom: 20px;
+    }
+    p{
+      margin-top: 0;
+    }
+  }
+  .text_advantages {
+  padding-left: 0;
+  margin-bottom: 30px;
+  }
+  .products_wrapper_item{
+    .item-1{
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    .item-3{
+      grid-column: 2/3;
+      grid-row: 3/4;
+      margin-top: 0;
+    }
+  }
+  .img_text_about_us{
+    .img_about_us{
+      .img_item_2{
+        margin-top: -160px;
+      }
+      .img_item_3{
+        margin-top: -160px;
+      }
+    }
+  }
+
+  .carousel{
+    &__prev,
+    &__next {
+      > label {
+      width: 35px;
+      height: 35px;
+      top: 20%;
+      }
+    }
+    &__nav {
+      top: 45%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .products_wrapper_item{
+    .image_products{
+      grid-template-columns: repeat(2,130px);
+      grid-template-rows: repeat(3,150px);
+    }
+  }
+  .carousel{
+    &__prev,
+    &__next {
+      > label {
+      width: 25px;
+      height: 25px;
+      top: 15%;
+      }
+    }
+    &__nav {
+      top: 30%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .carousel{
+    &__nav {
+      top: 35%;
+    }
+  }
+}

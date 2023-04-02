@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// підключення компонентів до сторінки
+@import "./components/header";
+@import "./components/example";
+@import "./components/1_products.scss";
+@import "./components/2_wood.scss";
+@import "./components/3_gallery.scss";
+@import "./components/4_advantages.scss";
+@import "./components/5_about_us.scss";
+@import "./components/6_questions.scss";
+@import "./components/price";
+@import "./components/contact";
+@import "./components/footer";
+@import "./components/media";

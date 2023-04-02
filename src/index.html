@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk" class="page">
+  @include('partials/head.html')
+  <body class="body">
+    <div class="wrapper wrapper_bg">
+        @include('partials/header.html')
+        <main class="main">
+          @include('partials/1_products.html')
+          @include('partials/2_wood.html')
+          @include('partials/3_gallery.html')
+          @include('partials/4_advantages.html')
+          @include('partials/5_about_us.html')
+          @include('partials/6_questions.html')
+        </main>
+        @include('partials/footer.html')
+    </div>
+    <script>
+        let header = document.querySelector ("header");
+    window.addEventListener("scroll", () =>{
+      console.log(window.scrollY);
+      if(window.scrollY>100){
+        header.classList.add('navbar-background');
+      }else{
+        header.classList.remove('navbar-background');
+      }
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  // --font-family: "Open Sans", sans-serif;
+  // --content-width: 1170px;
+  // --container-offset: 15px;
+  // --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+   --font-size-glav: clamp(1.875rem, 0.585rem + 6.45vw, 5.625rem);
+  --font-size-medium: clamp(1.25rem, 1.035rem + 1.08vw, 1.875rem);
+  --font-size-min: clamp(0.938rem, 0.615rem + 1.61vw, 1.875rem);
+
+  // colors
+  --light-color: #fff;
+}

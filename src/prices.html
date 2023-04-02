@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk" class="page">
+  @include('partials/head.html')
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header_item container">
+          <div class="logo">
+            <a href="./index.html">
+              <img class="logo_img" src="./img/logo/logo.png" alt="logo"></a>
+          </div>
+          <nav class="nav">
+            <a href="./gallery.html">Gallery</a>
+            <a class="active" href="./prices.html">Prices for services</a>
+            <a href="./about_us.html">About us</a>
+            <a href="./contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      @include('partials/price.html')
+      @include('partials/6_questions.html')
+      @include('partials/footer.html')
+    </div>
+    <script>
+      let header = document.querySelector ("header");
+  window.addEventListener("scroll", () =>{
+    console.log(window.scrollY);
+    if(window.scrollY>100){
+      header.classList.add('navbar-background');
+    }else{
+       header.classList.remove('navbar-background');
+    }
+  });
+</script>
+  </body>
+</html>

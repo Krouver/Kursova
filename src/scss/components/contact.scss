@@ -1,0 +1,30 @@
+// ====================== CONTACT ========================
+
+
+.contact {
+  margin-top: 250px;
+}
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.text_glav_contact{
+  font-family: 'KyivTypeSans';
+  font-size: var(--font-size-glav);
+  line-height: 132.9%;
+  text-transform: uppercase;
+  margin-bottom: 118px;
+}
+.tel_footer {
+  margin-bottom: 33px;
+}
+.geo_footer {
+  margin-bottom: 50px;
+}
+.image_contact_item{
+  img{
+    width: 100%;
+  }
+
+}
